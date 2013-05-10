@@ -14,7 +14,9 @@
 <div class="wrapper">
   <ul class= "navigation">
     <li><a href="../index.html">Home</a></li>
-    <li>About Marriages</li>
+    <li><a href="../about-marriages.html">About Marriages</a></li>
+    <li><a href="../videos.html">Videos</a></li>
+    <li><a href="../extras.html"> Extras</a></li>
 				
   </ul>
   <div class="content">
