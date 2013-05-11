@@ -88,8 +88,8 @@ body{
 	border-bottom-style: solid;
 	border-left-style: solid;
 	margin: auto;
-	page-break-before: always;
-	page-break-after: always;
+	page-break-before: auto;
+	page-break-after: auto;
 	background-attachment: scroll;
 	position: relative;
 	left: auto;
@@ -138,8 +138,9 @@ p {
 	top: auto;
 	right: auto;
 	bottom: auto;
-	page-break-before: always;
-	page-break-after: always;
+	page-break-before: auto;
+	page-break-after: auto;
 	background-attachment: scroll;
-	background-image: none;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
 }
