@@ -143,12 +143,3 @@ p {
 	background-attachment: scroll;
 	background-image: none;
 }
-.wrapper .content .main p {
-	padding-top: 0px;
-	padding-right: 20px;
-	padding-bottom: 0px;
-	padding-left: 20px;
-	color: #603;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-}
