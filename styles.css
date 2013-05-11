@@ -78,6 +78,9 @@ body{
 	background-attachment: scroll;
 	height: 800px;
 	width: 800px;
+	page-break-before: always;
+	page-break-after: always;
+	background-repeat: repeat;
 }
 .main {
 	background-color: #F2F2F2;
@@ -96,6 +99,7 @@ body{
 	top: auto;
 	right: auto;
 	bottom: auto;
+	background-repeat: no-repeat;
 }
 .home-img img {
 	border: 1px solid #000;
@@ -111,8 +115,9 @@ p {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 2.25em;
-	margin-left: 0px;
+	margin-left: 10px;
 	color: #333;
+	background-attachment: scroll;
 }
 	
 
@@ -126,7 +131,6 @@ p {
 	bottom: 0px;
 	page-break-before: always;
 	page-break-after: always;
-	background-image: none;
 	background-attachment: scroll;
 }
 .wrapper .content .main .labels {
@@ -141,6 +145,5 @@ p {
 	page-break-before: auto;
 	page-break-after: auto;
 	background-attachment: scroll;
-	background-image: url(images/background.jpg);
 	background-repeat: repeat;
 }
