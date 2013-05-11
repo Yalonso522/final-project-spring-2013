@@ -1,8 +1,8 @@
-body {
+body{
 	margin: 0px;
 	padding: 0px;
 	background-image: url(images/background.jpg);
-	position: static;
+	position: relative;
 	background-repeat: repeat;
 	left: auto;
 	top: auto;
@@ -18,6 +18,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 20px;
 	margin-left: 10px;
+	background-image: none;
 }
 .navigation li {
 	display: inline;
@@ -43,6 +44,9 @@ body {
 	border-left-style: double;
 	background-color: #FFFFD7;
 	padding: 20px;
+	list-style-type: circle;
+	text-decoration: none;
+	color: #009900;
 }
 .wrapper .content .main .labels table tr td div:hover{
 	border-top-color: #f2f2f2;
@@ -50,7 +54,8 @@ body {
 	border-bottom-color: #f2f2f2;
 	border-left-color: #f2f2f2;
 	color: #f2f2f2;
-	background-color: #222940;}
+	background-color: #FFD7EB;
+}
 .navigation li a:hover {
 	border-top-color: #f2f2f2;
 	border-right-color: #f2f2f2;
@@ -95,7 +100,7 @@ body {
 .home-img img {
 	border: 1px solid #000;
 	margin: 5px;
-	padding: 10px;
+	padding: 20px;
 }
 
 p {
@@ -113,14 +118,16 @@ p {
 
 .wrapper {
 	background-repeat: repeat;
-	left: 40px;
-	top: 40px;
+	left: 0px;
+	top: 0px;
 	float: none;
 	position: relative;
-	right: 40px;
-	bottom: 40px;
+	right: 0px;
+	bottom: 0px;
 	page-break-before: always;
 	page-break-after: always;
+	background-image: none;
+	background-attachment: scroll;
 }
 .wrapper .content .main .labels {
 	position: relative;
@@ -134,4 +141,14 @@ p {
 	page-break-before: always;
 	page-break-after: always;
 	background-attachment: scroll;
+	background-image: none;
+}
+.wrapper .content .main p {
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	color: #603;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
 }
